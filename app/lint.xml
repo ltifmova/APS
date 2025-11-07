@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Copyright © 2014-2024 The Android Password Store Authors. All Rights Reserved.
+  ~ SPDX-License-Identifier: GPL-3.0-only
+  -->
+<lint>
+  <issue id="ContentDescription">
+    <ignore path="src/main/res/layout/oreo_autofill_dataset.xml" />
+    <ignore path="src/main/res/layout/oreo_autofill_filter_row.xml" />
+  </issue>
+  <issue id="InvalidPackage">
+    <ignore regexp="X509LDAPCertStoreSpi" />
+  </issue>
+  <issue id="MissingQuantity">
+    <ignore path="src/main/res/values-fr/strings.xml" />
+  </issue>
+  <issue id="Overdraw">
+    <ignore path="src/main/res/layout/activity_git_clone.xml" />
+    <ignore path="src/main/res/layout/fragment_clone.xml" />
+    <ignore path="src/main/res/layout/fragment_key_selection.xml" />
+    <ignore path="src/main/res/layout/fragment_welcome.xml" />
+  </issue>
+  <issue id="TrustAllX509TrustManager">
+    <ignore regexp="bouncycastle" />
+    <ignore regexp="jgit" />
+  </issue>
+  <issue id="UnusedResources">
+    <ignore path="src/main/res/values/bools.xml" />
+    <ignore path="src/main/res/values/colors_material3.xml" />
+    <ignore path="src/main/res/layout/map_preference_widget_switch.xml" />
+  </issue>
+  <issue id="PrivateResource">
+    <ignore path="src/main/res/layout/map_preference_widget_switch.xml" />
+  </issue>
+  <issue id="Deprecated">
+    <ignore path="src/main/res/layout/item_field.xml" />
+  </issue>
+  <issue id="VectorPath">
+    <ignore path="src/main/res/drawable/app_settings_alt_24px.xml" />
+    <ignore path="src/main/res/drawable/ic_launcher_foreground_monochrome.xml" />
+    <ignore path="src/main/res/drawable/ic_miscellaneous_services_24px.xml" />
+    <ignore path="src/main/res/drawable/ic_miscellaneous_services_24px.xml" />
+  </issue>
+  <issue id="GradleDependency" severity="ignore" />
+  <issue id="ReportShortcutUsage" severity="ignore" />
+  <issue id="MissingTranslation" severity="ignore" />
+  <issue id="ImpliedQuantity" severity="ignore" />
+</lint>
